@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Styles/CVdetails.css">
+
+    <title>Your CV details</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="Ho"><a href="./GreetingPage.html"><h1>Home</h1></a></div>
+        <div class="Cv"><a href="./Confirm.html"><h1>Cirriculum Vitae</h1></a></div>
+        <div class="Ed"><a href="./CVdetails.html"><h1>Edit</h1></a></div>
+    </div>
+    <section>
+        <label class="Login" for="s1"><h1>Login Details</h1></label>
+        <form action="" method="post" name="Login Details" id="form">
+            <div class="info">
+                <label for="Username">Username</label>
+                <input type="text" name="Username" id="Username" placeholder="That9703" required maxlength="8">
+                <button class="tp">?</button> 
+                    <p>Type (The 1st 4 letters of your FirstName) + (The 1st 4 digits of your ID Number/Passport)
+                    eg. That9703
+                    </p>  
+            </div>
+        <!--
+            <div class="info">
+                <label for="Password">Password</label>
+                <input type="password" name="pass" id="Password" placeholder=""  minlength="12">
+                <button class="tp">?</button>
+                    <p>
+                        Password must be at least 12 characters <br>
+                        Password must contain at least 1 number<br>
+                        Password must contain  1 specail character<br>
+                        Password must contain at least 1 lowercase letter<br>
+                        Password must contain at least 1 UPPERCASE letter 
+                    </p>
+            </div>
+        -->
+            <div class="info">
+                <label for="Email">Email Address</label>
+                <input type="email" name="Email Address" id="Email" placeholder="tom@gmail.com" required minlength="8">
+                <button class="tp">?</button>
+                    <p>Fill in an emil you will use on all you job applications so you receive all your alerts in one place.
+                    </p>
+            </div>
+        <!--    
+            <div class="info">
+                <label for="IDnumber">ID Number</label>
+                <input type="tel" name="Inum" id="IDnumber" placeholder="9703105199087"  minlength="13" maxlength="13">
+                <button class="tp">?</button>
+                    <p>Fill in your 13 digits person number as per identity document
+                    </p>
+            </div>
+        -->
+            <div class="info">
+                <label for="Phone">Phone Number</label>
+                <input type="tel" name="Mobile Number" id="Phone" placeholder="0673772218"  minlength="10" maxlength="10">
+                <button class="tp">?</button>
+                    <p>Fill in your contact number, that recruiters may easily call you on.
+                    </p>
+            </div>
+                        
+            <div class="clp">
+               <button type="reset">Reset</button>
+               <button type="clear">Copy</button>
+               <button type="submit">Submit</button>
+            </div>
+            
+            <div class="AutoSave"></div>
+
+        </form>
+    </section>
+     
+    <script src="./Scripts/CVdetails.js"></script>
+</body>
+</html>

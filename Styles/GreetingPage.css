@@ -1,0 +1,78 @@
+.navbar{
+    margin-left:25%;
+    width: 50%;
+    padding: 10px; 
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar .Ho{
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray; 
+    width: 100px;
+    text-align: center;
+    padding: 0 1% 0 1% ;
+}
+.navbar .Cv{
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray; 
+    text-align: center; 
+    padding: 0 2% 0 2% ;
+}
+.navbar .Ed{
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray;
+    width: 100px;
+    text-align: center;
+    padding: 0 1% 0 1% ;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+/********************************************************/
+
+
+.WelcomePage{
+    margin-left:25%;
+    margin-top: 10%;
+    width: 50%;
+    padding: 10px;
+    
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray;  
+}
+.intro{
+    display: grid;
+    text-align: center;
+}
+.intro p{
+    font-size: 18px;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-column-gap: 5px;
+}
+
+.navigation div{
+    padding: 15px;
+    border: solid gray;
+    border-radius: 20px;
+    
+    text-align: center;
+}
+.navigation div a{
+    text-decoration: none;
+    color: white;
+}

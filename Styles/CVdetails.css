@@ -1,0 +1,114 @@
+.navbar{
+    margin-left:25%;
+    width: 50%;
+    padding: 10px; 
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar .Ho{
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray; 
+    width: 100px;
+    text-align: center;
+    padding: 0 1% 0 1% ;
+}
+.navbar .Cv{
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray; 
+    text-align: center; 
+    padding: 0 2% 0 2% ;
+}
+.navbar .Ed{
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray;
+    width: 100px;
+    text-align: center;
+    padding: 0 1% 0 1% ;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+/********************************************************/
+
+section{
+    margin-left:25%;
+    margin-top: 10%;
+    width: 50%;
+    padding: 10px 10px 20px 10px;
+    
+    background-color: gray;
+    border-radius: 30px;
+    border: solid gray;
+   
+}
+
+section .Login{
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: 40% 55% 5%;
+    
+}
+
+.info label{
+    font-size: 25px;
+    width: 100%;
+    padding-right: 10px;
+}
+.info input{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 1%; 
+}
+.info p{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 50px;
+    z-index: 1;
+}
+.tp:hover p{
+    display: block;
+    position: relative;
+}
+.tp{
+    cursor: pointer;
+}
+
+.clp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 6% 2% 2% 2%;
+    grid-column-gap: 1%;
+}
+.clp input{
+    font-size: 18px;
+}
+
+.AutoSave{
+    text-align: right;
+    color: green;
+    font-size: 15px;
+    padding-top: 10px;
+
+    .AutoSave--saving{
+        color: white;
+    }
+
+}
